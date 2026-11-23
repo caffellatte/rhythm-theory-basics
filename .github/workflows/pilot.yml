@@ -1,0 +1,31 @@
+name: Build the pilot lesson
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.10.20'
+      - name: Render the listening page and print edition
+        run: |
+          quarto render pilot/kick-placement.qmd --to html
+          quarto render pilot/kick-placement.qmd --to typst
+      - name: Check listening links and guide recordings
+        run: python3 pilot/test_audio.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kick-practice-preview
+          if-no-files-found: error
+          path: |
+            pilot/kick-placement.html
+            pilot/kick-placement.pdf
+            pilot/kick-placement_files/
+            pilot/audio/

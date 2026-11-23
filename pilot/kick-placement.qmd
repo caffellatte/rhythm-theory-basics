@@ -1,0 +1,58 @@
+---
+title: "Where the kick lands and how long it rings"
+format:
+  html: default
+  typst: default
+---
+
+## Listen before looking
+
+On “Planet Rock,” producer Arthur Baker had the bass double the kick. Listen for the moment those two attacks meet in one of these takes. [Baker on the bass part](https://reverb.com/news/interview-arthur-baker-on-planet-rock-new-order-and-unreleased-sessions)
+
+**Ear test.** Tap four steady beats. Compare A with B, then A with C. For each pair, write *moved* or *rang longer* for the second kick before looking at the grid. For a two-point round, score one point per match with the answer key. On a retry, hum the bass entrance and replay the pair.
+
+<div class="takes">
+<figure><figcaption>Take A</figcaption><audio controls preload="none" aria-label="Take A" src="audio/take-a.wav"></audio></figure>
+<figure><figcaption>Take B</figcaption><audio controls preload="none" aria-label="Take B" src="audio/take-b.wav"></audio></figure>
+<figure><figcaption>Take C</figcaption><audio controls preload="none" aria-label="Take C" src="audio/take-c.wav"></audio></figure>
+</div>
+
+[Take A](audio/take-a.wav) · [Take B](audio/take-b.wav) · [Take C](audio/take-c.wav). Each original synthesized guide repeats one bar twice in straight 4/4 at quarter note = 90. The `audio` folder holds `take-a.wav`, `take-b.wav`, and `take-c.wav`.
+
+## Count the attacks
+
+On Roland's TR-808, sixteen step buttons placed the hits. Turning the bass drum's decay control could make it ring longer on the same step. [Roland's TR-808 history](https://www.roland.com/global/promos/roland_tr-808/)
+
+**Tap the start, hum the tail.** Read one row at a time. Each column is an eighth note. Tap each **x** and hum as long as the sound lasts. A dot means no new attack.
+
+| Part | 1 | & | 2 | & | 3 | & | 4 | & |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Hat | x | . | x | . | x | . | x | . |
+| Snare | . | . | x | . | . | . | x | . |
+| Bass C | . | x | . | . | . | x | . | . |
+| Melody G | . | . | . | . | . | . | . | x |
+| Kick A/C | x | . | . | . | x | . | . | . |
+| Kick B | x | . | . | . | . | x | . | . |
+
+**Answer key.** In A the short kicks land on one and three. In B the second kick **moved** to three-and, where it meets the bass. In C it **rang longer** on three, for 500 ms against A's 125 ms. The bass enters about 333 ms after beat three, under the ringing kick.
+
+## Play it three ways
+
+Egyptian Lover recalled switching from “Planet Rock” to his own 808 during the breakdown, then adding cowbell and hi-hat. [Egyptian Lover interview](https://www.vice.com/en/article/egyptian-lover-anthology-interview-2016/)
+
+Try this pad layout. Once you select a sound in TR-REC, the same pads mark time steps.
+
+```text
+ 1 short kick   2 long kick   3 snare   4 hat
+ 5 bass C       6 melody G    7         8
+ 9             10            11        12
+13             14            15        16
+```
+
+**Live pads.** Tap your foot on the four beats. Voice a short *dum* on three, then try it on the following “and.” Return to three and stretch the *mmm* across the bass entrance. In C major, sing *do* with the bass and *sol* with the answering melodic sample. Record a live pass with QTZ Off and listen before looking at the grid. [Roland real-time recording](https://static.roland.com/manuals/sp-404mk2_reference_v550/en-US/7920321178487947.html)
+
+**TR-REC.** Press PATTERN SELECT, then REC, and choose a blinking empty pattern pad. Use REMAIN to select TR-REC. Set 90 BPM, one bar of 4/4, and zero shuffle. Press REC to begin. Hold SUB PAD and tap the sample pad, then release SUB PAD and enter the time steps in TRIG mode. For A, place short kicks on 1 and 9. For B move 9 to 11. For C use the short kick on 1 and only its longer copy on 9. Keep the bass on 3 and 11 throughout. To make a short copy, keep its start fixed and bring its end marker earlier. [TR-REC](https://static.roland.com/manuals/sp-404mk2_reference_v550/en-US/7921805978489483.html) · [START/END](https://static.roland.com/manuals/sp-404mk2_reference_v550/en-US/7909287578475659.html)
+
+**DOOM OS.** In a practice pattern select the kick track and inspect steps 9 and 11 in the graphical grid. Predict which kick meets the bass, then switch to Zoom and listen. On a gated sound, hold the chosen step and turn CTRL 2 to experiment with its sequenced length. A one-shot can play to its end marker, and a gated release can fade after the note ends. Compare the audible tail with the note drawn on screen. [Klangfeld Labs manual](https://klangfeldlabs.com/doom-os/manual/) · [Roland one-shot](https://static.roland.com/manuals/sp-404mk2_reference_v550/en-US/7887911578451851.html) · [Roland envelope](https://static.roland.com/manuals/sp-404mk2_reference_v550/en-US/7913255578478731.html)
+
+**Next session.** Pick a different kick. Without the grid, record one take that moves its attack and another that changes only its length. Keep the bass fixed. Name which change you hear when you play the takes back in a different order.
